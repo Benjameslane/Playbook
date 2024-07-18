@@ -3,13 +3,31 @@
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-main{
+.homepage main{
     margin: 20px;
     text-align: center;
+    
+   
+}
+
+.homepage p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333; /* Dark grey color for text */
+    padding: 30px;
+    background-color: #f9f9f9; /* Light grey background */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 
 h1{
+    margin-top: 20px;
+    text-align: center;
+}
+h3{
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -41,23 +59,288 @@ h1{
     color: bisque;
 }
 
-.schemeimg{
-    display: grid;
-    width: 80%;
-    margin: 100px auto 50px;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 30px;
- 
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
+.wrapper img{
+    max-width: 500px;
+    max-height: 500px;
+    float:none;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.schemebody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
     
 }
 
-.schemeimg img{
-   width: 100%;
-   cursor: pointer;
- 
-    
+.text-box h2{
+    font-size: 42px;
+    margin-left: 10px;
+}
+
+.text-box p{
+    font-size: 16px;
+    max-width: 70%;
+    margin-left: 10px;
+    border: solid;
+    padding: 10px;
 }
 
 
+.oregon-schemebody {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
+.oregon-title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
 
+.oregon-section-title {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.oregon-schemebody p, .oregon-schemebody ul {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.oregon-schemebody ul {
+    padding-left: 20px;
+}
+
+.oregon-schemebody li {
+    margin-bottom: 10px;
+}
+
+.oregon-schemebody ul li strong {
+    color: #2c3e50;
+}
+
+.oregon-schemebody p {
+    margin-bottom: 15px;
+}
+
+.oregon-schemebody ul li {
+    list-style-type: disc;
+}
+
+.airraid-schemebody {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.airraid-title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.airraid-section-title {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.airraid-schemebody p, .airraid-schemebody ul {
+    font-size: 16px;
+    line-height: 1.6;
+   padding: 5px;
+}
+
+.airraid-schemebody ul {
+    padding-left: 20px;
+}
+
+.airraid-schemebody li {
+    margin-bottom: 10px;
+}
+
+.airraid-schemebody ul li strong {
+    color: #2c3e50;
+}
+
+.airraid-schemebody p {
+    margin-bottom: 15px;
+}
+
+.airraid-schemebody ul li {
+    list-style-type: disc;
+}
+
+.navy-schemebody {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navy-title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.navy-section-title {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.navy-schemebody p, .navy-schemebody ul {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.navy-schemebody ul {
+    padding-left: 20px;
+}
+
+.navy-schemebody li {
+    margin-bottom: 10px;
+}
+
+.navy-schemebody ul li strong {
+    color: #2c3e50;
+}
+
+.navy-schemebody p {
+    margin-bottom: 15px;
+}
+
+.navy-schemebody ul li {
+    list-style-type: disc;
+}
+
+.stanford-schemebody {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stanford-title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.stanford-section-title {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.stanford-schemebody p, .stanford-schemebody ul {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.stanford-schemebody ul {
+    padding-left: 20px;
+}
+
+.stanford-schemebody li {
+    margin-bottom: 10px;
+}
+
+.stanford-schemebody ul li strong {
+    color: #2c3e50;
+}
+
+.stanford-schemebody p {
+    margin-bottom: 15px;
+}
+
+.stanford-schemebody ul li {
+    list-style-type: disc;
+}
+
+.nevada-schemebody {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nevada-title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.nevada-section-title {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.nevada-schemebody p, .nevada-schemebody ul {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.nevada-schemebody ul {
+    padding-left: 20px;
+}
+
+.nevada-schemebody li {
+    margin-bottom: 10px;
+}
+
+.nevada-schemebody ul li strong {
+    color: #2c3e50;
+}
+
+.nevada-schemebody p {
+    margin-bottom: 15px;
+}
+
+.nevada-schemebody ul li {
+    list-style-type: disc;
+}
+
+.airraid-base-plays-details img{ 
+    max-width: 560px;
+    max-height: 315px;
+  
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.airraid-player-profiles img{
+    max-width: 560px;
+    max-height: 315px;
+  
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+    align-items: center;
+}
